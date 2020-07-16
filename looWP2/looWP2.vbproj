@@ -84,11 +84,17 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DB\MP3.sdf" />
+    <Content Include="PathMP3.txt" />
     <Content Include="Web.config" />
     <Content Include="wsLWP.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\download.vb" />
     <Compile Include="App_Code\GestioneFilesDirectory.vb" />
+    <Compile Include="App_Code\mdlGenerale.vb" />
+    <Compile Include="App_Code\MetodiDbCE.vb" />
+    <Compile Include="App_Code\SQLSERVERCE.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -1,0 +1,1 @@
+PathMP3=E:\Mp3;PathDB=E:\Mp3Tag\DB\MP3Tag.sdf;
